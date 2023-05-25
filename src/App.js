@@ -19,6 +19,7 @@ function App() {
       console.log(error);
       setError(true);
     }
+    setColor("");
   };
 
   return (
@@ -38,16 +39,6 @@ function App() {
           <button className='btn' type='submit'>
             GENERATE
           </button>
-          {/* Shades
-          <input
-            type="number"
-            id="amount"
-            placeholder="10"
-            value={amount}
-            onChange={(e) => {
-              setAmount(parseInt(e.target.value));
-            }}
-          ></input> */}
         </form>
       </section>
       <section className='colors'>
