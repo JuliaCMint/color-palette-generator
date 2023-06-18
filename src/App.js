@@ -19,7 +19,7 @@ function App() {
       console.log(error);
       setError(true);
     }
-    setColor("");
+    // setColor("");
   };
 
   return (
@@ -32,7 +32,7 @@ function App() {
           <input
             type='text'
             value={color}
-            onChange={(e) => setColor(e.target.value)}
+            onChange={(e) => setColor(e.target.value.trim())}
             placeholder='#F9769A'
             className={`${error ? "error" : null}`}
           />
