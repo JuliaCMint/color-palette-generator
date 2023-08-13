@@ -25,4 +25,5 @@ https://color-palette-generator-app.netlify.app/
 
 
 #### PREVIEW
-![Color-Generator](https://github.com/JuliaCMint/color-palette-generator/assets/105377899/1cefd179-78d2-462b-a1b0-e34e0705667c)
+
+![Color-Generator](https://github.com/JuliaCMint/color-palette-generator/assets/105377899/4556f48c-8c9c-42ea-a4e2-4f78e34d2948)
